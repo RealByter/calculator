@@ -1,0 +1,80 @@
+body {
+	font-family: 'Fira Code', monospace;
+	width: 100vw;
+	max-width: 100%;
+	height: 100vh;
+	background-color: #f0ffff;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+.calc-body {
+	width: 425px;
+	height: 532px;
+	background-color: #000000;
+	border: 10px #2f2f2f solid;
+	border-radius: 4px;
+	display: flex;
+	flex-direction: column;
+}
+
+.display {
+	background-color: #b2b9b7;
+	width: 396px;
+	height: 96px;
+	margin: 6px auto;
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+	font-size: 64px;
+	font-weight: 600;
+	padding: 4px;
+}
+
+.buttons {
+	display: flex;
+	flex-wrap: wrap;
+	flex: 1;
+	margin: 4px;
+	margin-top: 0;
+}
+
+.button {
+	flex: 1 0 25%;
+	height: 20%;
+	background-color: #217c7e;
+	border: 1px #000000 solid;
+	font-size: 24px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.button:active {
+	background-color: #33b9bb;
+}
+
+.misc {
+	background-color: #1e90ff;
+}
+
+.misc:active {
+	background-color: #7bbdff;
+}
+
+.operation {
+	background-color: #ff8f1f;
+}
+
+.operation:active {
+	background-color: #ffc183;
+}
+
+.zero {
+	flex: 2 0 50%;
+}

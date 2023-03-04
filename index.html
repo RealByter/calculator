@@ -12,31 +12,32 @@
 		/>
 		<link rel="stylesheet" href="normalize.css" />
 		<link rel="stylesheet" href="styles.css" />
+		<script src="index.js" defer></script>
 		<title>Calculator</title>
 	</head>
 	<body>
 		<div class="calc-body">
-			<div class="display">0</div>
+			<div id="display">0</div>
 			<div class="buttons">
-				<div class="button misc" value="AC">AC</div>
-				<div class="button misc" value="+/-">+/-</div>
-				<div class="button misc" value="backspace">&larr;</div>
-				<div class="button operation" value="/">/</div>
-				<div class="button" value="7">7</div>
-				<div class="button" value="8">8</div>
-				<div class="button" value="9">9</div>
-				<div class="button operation" value="*">*</div>
-				<div class="button" value="4">4</div>
-				<div class="button" value="5">5</div>
-				<div class="button" value="6">6</div>
-				<div class="button operation" value="-">-</div>
-				<div class="button" value="1">1</div>
-				<div class="button" value="2">2</div>
-				<div class="button" value="3">3</div>
-				<div class="button operation" value="+">+</div>
-				<div class="button zero" value="0">0</div>
-				<div class="button" value=".">.</div>
-				<div class="button operation" value="=">=</div>
+				<div class="button misc clear" value="AC">AC</div>
+				<div class="button misc sign" value="+/-">+/-</div>
+				<div class="button misc backspace" value="backspace">&larr;</div>
+				<div class="button operator" value="/">/</div>
+				<div class="button operand" value="7">7</div>
+				<div class="button operand" value="8">8</div>
+				<div class="button operand" value="9">9</div>
+				<div class="button operator" value="*">*</div>
+				<div class="button operand" value="4">4</div>
+				<div class="button operand" value="5">5</div>
+				<div class="button operand" value="6">6</div>
+				<div class="button operator" value="-">-</div>
+				<div class="button operand" value="1">1</div>
+				<div class="button operand" value="2">2</div>
+				<div class="button operand" value="3">3</div>
+				<div class="button operator" value="+">+</div>
+				<div class="button zero operand" value="0">0</div>
+				<div class="button decimal" value=".">.</div>
+				<div class="button operator equals" value="=">=</div>
 			</div>
 		</div>
 	</body>

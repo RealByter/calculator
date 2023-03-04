@@ -23,7 +23,7 @@ body {
 	flex-direction: column;
 }
 
-.display {
+#display {
 	background-color: #b2b9b7;
 	width: 396px;
 	height: 96px;
@@ -68,11 +68,11 @@ body {
 	background-color: #7bbdff;
 }
 
-.operation {
+.operator {
 	background-color: #ff8f1f;
 }
 
-.operation:active {
+.operator:active {
 	background-color: #ffc183;
 }
 
